@@ -1640,4 +1640,17 @@ WHERE base_price_per_night = (
     FROM accommodations
 );
 
-SELECT * FROM locations
+SELECT * FROM accommodation_amenities;
+SELECT * FROM accommodation_types;
+SELECT * FROM accommodations;
+SELECT * FROM amenities;
+SELECT * FROM booking_guests;
+SELECT * FROM booking_statuses;
+SELECT * FROM bookings
+SELECT * FROM guests
+SELECT * FROM locations 
+SELECT * FROM owners
+SELECT * FROM payments
+SELECT * FROM reviews
+SELECT * FROM rooms
+SELECT * FROM staff_users
